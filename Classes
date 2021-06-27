@@ -1,0 +1,47 @@
+What is the concept of OOP?
+
+Pythong is a multi-paradigm programming language i.e., it supports different programming approaches.
+
+One of the most popular approaches to solves a programming problem is by creating user-defined objects. This is known as OOP.
+
+An object has 2 characteristics:
+
+Attributes
+Behaviour
+Python is an Object-Oriented Programming: This means that almost everything in Python is implemented using a special construct called classes.
+
+Python Class (Template):
+
+A class is a code template or blueprint for creating objects.
+The class only provides the structure - it's a blueprint for how something should be defined, but it doesn't actually store any real content itself.
+Python Objects (Instances):
+
+While the class is the blueprint, an instance is a copy of the class with 'actual values'. In python, a class is created by the keyword --> class.
+
+Say X=10, then we can say X is an instance of integer datatype or class. Integer however is a built in class. So the instance holds the value 10.
+
+An object is created using the constructor of the class. This object will then be called the instance of the class.
+
+
+# Creating a Class
+# Creating a user defined datatype named "Employee"
+class Employee:
+    pass
+   
+   
+#Creating instance of the class Employee
+#Its also called Employee objects or objects of class Employee
+employee_1 = Employee()
+employee_2 = Employee()
+
+#Checking the datatype of the 2 objects created above.
+type(employee_1)
+type(employee_2)
+
+
+#Attribute of instance employee_1
+
+employee_1.firstname = "Nancy"
+employee_1.lastname = "Poulose"
+employee_1.email = "npp@abc.com"
+employee_1.empid = 101
